@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet');
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar-brand img {
+  border: 2px solid white;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 12vh;
+    background-color: #385ced;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+    -webkit-transform: translate(100%);
+            transform: translate(100%);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+  }
+  .nav-links l {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+  }
+  .nav-active {
+    -webkit-transform: translate(0%);
+            transform: translate(0%);
+  }
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.navbar-nav {
+  font-size: 2rem;
+}
+
+.bg {
+  display: table;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(131, 27, 27, 0.2))), url("/images/desktop.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(131, 27, 27, 0.2)), url("/images/desktop.jpg");
+  background-position: center top;
+  height: 80vh;
+  background-size: cover;
+}
+
+.bg h1 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.bg h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.footer-wrapper {
+  height: 250px;
+}
+
+.logo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid white;
+  height: 120px;
+}
+
+.map {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.fa {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 15px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 15px;
+}
+
+.fa-youtube {
+  background: #dd4b39;
+  color: white;
+  padding: 15px;
+}
+
+.fa-whatsapp {
+  background: green;
+  color: white;
+  padding: 15px;
+}
+/*# sourceMappingURL=main.css.map */
