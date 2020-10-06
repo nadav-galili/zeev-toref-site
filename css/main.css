@@ -69,7 +69,7 @@ html {
   display: table;
   width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(131, 27, 27, 0.2))), url("/images/desktop.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(131, 27, 27, 0.2)), url("images/desktop.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(131, 27, 27, 0.2)), url("/images/desktop.jpg");
   background-position: center top;
   height: 80vh;
   background-size: cover;
