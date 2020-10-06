@@ -13,3 +13,12 @@ $baseColorWhite:#f4f5f7;
 .navbar-brand img{
     border:2px solid white
 }
+
+.bg {
+    display: table;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(131, 27, 27, 0.2)), url('images/desktop.jpg');
+    background-position: center top;
+    height: 80vh;
+    background-size: cover;
+}
