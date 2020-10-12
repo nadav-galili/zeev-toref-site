@@ -1,37 +1,38 @@
-@media screen and (max-width:1024px) {
-    .nav-links {
-        width: 60%;
-    }
-}
+// @media screen and (max-width:1024px) {
+//     .nav-links {
+//         width: 60%;
+//     }
+// }
 
 @media screen and (max-width:768px) {
-    body {
-        overflow-x: hidden;
+  .waze {
+      margin-left: 10px;
+  }
     }
 
-    .nav-links {
-        position: absolute;
-        right: 0px;
-        height: 92vh;
-        top: 12vh;
-        background-color: $baseColorBlue;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-        transform: translate(100%);
-        transition: transform 0.5s ease-in;
-    }
+//     .nav-links {
+//         position: absolute;
+//         right: 0px;
+//         height: 92vh;
+//         top: 12vh;
+//         background-color: $baseColorBlue;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         width: 50%;
+//         transform: translate(100%);
+//         transition: transform 0.5s ease-in;
+//     }
 
-    .nav-links l {
-        opacity: 0;
-    }
+//     .nav-links l {
+//         opacity: 0;
+//     }
 
-    .burger {
-        display: block;
-    }
+//     .burger {
+//         display: block;
+//     }
 
-    .nav-active {
-        transform: translate(0%);
-    }
-}
+//     .nav-active {
+//         transform: translate(0%);
+//     }
+// }
