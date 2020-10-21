@@ -10,29 +10,15 @@
   }
     }
 
-//     .nav-links {
-//         position: absolute;
-//         right: 0px;
-//         height: 92vh;
-//         top: 12vh;
-//         background-color: $baseColorBlue;
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         width: 50%;
-//         transform: translate(100%);
-//         transition: transform 0.5s ease-in;
-//     }
+    
+@media screen and (min-width:768px) {
+  .jumbotron {
+     width:50%;
+  }
+    }
 
-//     .nav-links l {
-//         opacity: 0;
-//     }
-
-//     .burger {
-//         display: block;
-//     }
-
-//     .nav-active {
-//         transform: translate(0%);
-//     }
-// }
+  @media screen and (max-width:768px){
+    .media {
+      flex-wrap:wrap-reverse !important;
+    }
+  }

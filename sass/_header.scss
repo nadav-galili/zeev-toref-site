@@ -23,7 +23,7 @@ html {
     text-align: center;
     font-size: 3.5rem;
     // line-height: 100vh;
-    animation: text 3s 1;
+    animation: text 2s 1;
 }
 
 @keyframes text {
@@ -31,11 +31,11 @@ html {
         color:white ;
         margin-bottom: -40px;
     }
-    40% {
+    30% {
         letter-spacing: 25px;
         margin-bottom: -40px;
     }
-    60% {
+    40% {
         letter-spacing: 8px;
         margin-bottom: -40px;
 
@@ -44,29 +44,120 @@ html {
 
 .bg h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
-// span {
-//     opacity: 0.5;
-//     transition: all 0.4s ease;
-//     transform: translateY(50px);
-//     display: inline-block;
-// }
-
-// span .fadeIt {
-//     opacity:1;
-//     transform: translateY(0px);
-// }
-// // .fade:not(.show) {
-// //     opacity: 1;
-// // }
-
-.jumbotron {
-    width: 50%;
-}
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+
+/* Add the following CSS block to your own
+stylesheet. */
+.lnr {
+    display: flex;
+    fill: currentColor;
+    width: 4em;
+    height: 5em;
+    vertical-align: -0.05em;
+  }
+  
+  .lnr-chart-bars {
+    color:lime;
+    /* We can use "color" for setting the color
+    of the SVG because we set its "fill" to
+    "currentColor" */
+    font-size: 60px;
+    /* We can use "font-size" for changing the size
+    of the SVG because its width and height were
+    set 1em.
+    To get crisp results, use sizes that are
+    a multiple of 20; because Linearicons was
+    designed on a 20 by 20 grid. */
+  }
+  
+
+
+
+//   testimonials
+h4 {
+    color:white;
+}
+  .container-fluid {
+    background-image: linear-gradient(#00c7ff,#c7e2ea);
+  }
+  .card {
+    box-shadow: 0px 4px 8px 0px #BDBDBD
+}
+
+.profile-pic {
+    width: 100px !important;
+    height: 100px;
+    box-shadow: 0px 4px 8px 0px #BDBDBD
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    color: #1E88E5 !important;
+    border: none;
+    padding: 5px 20px !important;
+    font: inherit;
+    font-size: 50px !important
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+    color: #0D47A1 !important;
+    background-color: transparent !important
+}
+
+.owl-dots {
+    display: none
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.item {
+    display: none
+}
+
+.next {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.prev {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.item.show {
+    display: block;
+    transition-duration: 0.4s
+}
+
+@media screen and (max-width: 999px) {
+
+    .next,
+    .prev {
+        transform: scale(1);
+        opacity: 1
+    }
+
+    .item {
+        display: block !important
+    }
 }

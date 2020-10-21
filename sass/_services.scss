@@ -1,0 +1,43 @@
+
+.media:nth-child(even){
+    background-color: #d6d4d4;
+}
+.media {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    align-items: flex-start;
+
+
+    }
+
+
+.mediaH {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+//    flex-grow:3;
+
+    }
+
+.mediaP{
+    color: black;
+    font-size: 0.8em;
+}
+
+.media:nth-child(2) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    // flex-grow:3;
+    color:white
+    }
+
+ul {
+    direction: rtl;
+    color:black;
+    font-size: 0.8em;
+}
