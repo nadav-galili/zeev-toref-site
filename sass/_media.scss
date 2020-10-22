@@ -4,11 +4,11 @@
 //     }
 // }
 
-@media screen and (max-width:768px) {
-  .waze {
-      margin-left: 10px;
-  }
-    }
+// @media screen and (max-width:768px) {
+//   .waze {
+//       margin-left: 10px;
+//   }
+//     }
 
     
 @media screen and (min-width:768px) {
@@ -21,4 +21,11 @@
     .media {
       flex-wrap:wrap-reverse !important;
     }
+  }
+
+  @media screen and (max-width:768px){
+    .footer-wrapper {
+      height: 100vh!important;
+  }
+  
   }

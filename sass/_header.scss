@@ -53,30 +53,6 @@ html {
 
 }
 
-/* Add the following CSS block to your own
-stylesheet. */
-.lnr {
-    display: flex;
-    fill: currentColor;
-    width: 4em;
-    height: 5em;
-    vertical-align: -0.05em;
-  }
-  
-  .lnr-chart-bars {
-    color:lime;
-    /* We can use "color" for setting the color
-    of the SVG because we set its "fill" to
-    "currentColor" */
-    font-size: 60px;
-    /* We can use "font-size" for changing the size
-    of the SVG because its width and height were
-    set 1em.
-    To get crisp results, use sizes that are
-    a multiple of 20; because Linearicons was
-    designed on a 20 by 20 grid. */
-  }
-  
 
 
 

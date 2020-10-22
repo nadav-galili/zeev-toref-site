@@ -10,12 +10,6 @@
   border: 2px solid white;
 }
 
-@media screen and (max-width: 768px) {
-  .waze {
-    margin-left: 10px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .jumbotron {
     width: 50%;
@@ -26,6 +20,12 @@
   .media {
     -ms-flex-wrap: wrap-reverse !important;
         flex-wrap: wrap-reverse !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-wrapper {
+    height: 100vh !important;
   }
 }
 
@@ -96,32 +96,6 @@ html {
 .card {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* Add the following CSS block to your own
-stylesheet. */
-.lnr {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  fill: currentColor;
-  width: 4em;
-  height: 5em;
-  vertical-align: -0.05em;
-}
-
-.lnr-chart-bars {
-  color: lime;
-  /* We can use "color" for setting the color
-    of the SVG because we set its "fill" to
-    "currentColor" */
-  font-size: 60px;
-  /* We can use "font-size" for changing the size
-    of the SVG because its width and height were
-    set 1em.
-    To get crisp results, use sizes that are
-    a multiple of 20; because Linearicons was
-    designed on a 20 by 20 grid. */
 }
 
 h4 {
@@ -214,14 +188,7 @@ button:focus {
 }
 
 .footer-wrapper {
-  height: 260px;
-}
-
-.logo img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  border: 2px solid white;
-  height: 120px;
+  height: 40vh;
 }
 
 .map {
@@ -275,58 +242,20 @@ button:focus {
 }
 
 .media {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-.mediaH {
-  -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
+  border: 2px solid black;
 }
 
 .mediaP {
   color: black;
   font-size: 0.8em;
-}
-
-.media:nth-child(2) {
-  -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  color: white;
+  line-height: 1.6;
+  direction: rtl;
 }
 
 ul {
   direction: rtl;
   color: black;
   font-size: 0.8em;
+  line-height: 1.6;
 }
 /*# sourceMappingURL=main.css.map */
