@@ -137,3 +137,7 @@ button:focus {
         display: block !important
     }
 }
+
+a:focus {
+	outline: 1px solid grey;
+}

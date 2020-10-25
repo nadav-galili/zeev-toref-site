@@ -62,3 +62,18 @@ $(document).ready(function() {
     });
     
     });
+
+    // focus functions
+
+    
+$('#focusTaxAdvice').on(click,function newTax(){
+    console.log('clickygyg');
+    window.location.href="services.html";
+    $('taxAdvice').focus;
+   
+})
+
+// async function tax(){
+//     document.getElementById("taxAdvice").focus()=await newTax(); 
+// }
+      

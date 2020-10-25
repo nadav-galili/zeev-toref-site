@@ -187,6 +187,10 @@ button:focus {
   }
 }
 
+a:focus {
+  outline: 1px solid grey;
+}
+
 .footer-wrapper {
   height: 40vh;
 }
